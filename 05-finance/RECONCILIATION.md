@@ -2,7 +2,11 @@
 
 Propósito: documentar os casos em que o código exige análise manual e as evidências que compara.
 
-Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e53fb27c2d11e137eafba8096617a20105320026`) nessa data.
+Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e75597fa`) nessa data.
+
+Corrigido em 2026-11-04 conforme validação ARCH-FIN-VALIDATE (CHANGES REQUIRED).
+
+Status: PARCIAL (afirmações não confirmadas em código estão marcadas NAO VERIFICADO).
 
 ## Reconciliação de pedidos
 
@@ -12,4 +16,4 @@ O webhook compara ID, moeda, total pago, janela e estado financeiro do pedido Wo
 
 ## Limites
 
-UNVERIFIED: processo operacional de resolver a fila, reconciliação com extrato de adquirente, importação de transações externas e frequência de fechamento. Não foi executada consulta a banco nem chamada de provedor.
+NAO VERIFICADO: processo operacional de resolver a fila, reconciliação com extrato de adquirente, importação de transações externas e frequência de fechamento. Não foi executada consulta a banco nem chamada de provedor.

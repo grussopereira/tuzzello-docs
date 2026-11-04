@@ -2,7 +2,11 @@
 
 Propósito: descrever trilhas de auditoria e histórico encontrados nos fluxos financeiros.
 
-Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e53fb27c2d11e137eafba8096617a20105320026`) nessa data.
+Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e75597fa`) nessa data.
+
+Corrigido em 2026-11-04 conforme validação ARCH-FIN-VALIDATE (CHANGES REQUIRED).
+
+Status: PARCIAL (afirmações não confirmadas em código estão marcadas NAO VERIFICADO).
 
 ## O que é registrado
 
@@ -13,4 +17,4 @@ Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45
 
 ## O que não é demonstrado
 
-UNVERIFIED: trilha de mudanças para cada edição de valor de comissão, registro de chargeback, comprovante externo de liquidação e auditoria imutável para toda alteração financeira. O log de payout não demonstra por si só confirmação de liquidação pelo provedor.
+NAO VERIFICADO: trilha de mudanças para cada edição de valor de comissão, registro de chargeback, comprovante externo de liquidação e auditoria imutável para toda alteração financeira. O log de payout não demonstra por si só confirmação de liquidação pelo provedor.

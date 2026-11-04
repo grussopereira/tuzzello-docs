@@ -2,7 +2,11 @@
 
 Propósito: descrever evidências de pagamento, sincronização e confirmação visíveis no código.
 
-Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e53fb27c2d11e137eafba8096617a20105320026`) nessa data.
+Data: 2026-11-03. Descreve o HEAD de `frontend` (`c1bd75daff802b7ac97bfa32b47f45dd4608d574`) e `backend` (`e75597fa`) nessa data.
+
+Corrigido em 2026-11-04 conforme validação ARCH-FIN-VALIDATE (CHANGES REQUIRED).
+
+Status: PARCIAL (afirmações não confirmadas em código estão marcadas NAO VERIFICADO).
 
 ## Fluxo confirmado
 
@@ -12,4 +16,4 @@ A confirmação grava evidência de pagamento e as datas de fim da janela de ree
 
 ## Etapas não demonstradas
 
-UNVERIFIED: autorização e captura no provedor. O webhook valida um pagamento já indicado pelo WooCommerce; o trecho não executa captura. UNVERIFIED: liquidação financeira no provedor, prazo de liquidação e fluxo completo de confirmação fora desse webhook. Não foi localizada implementação de Stripe nesse caminho.
+NAO VERIFICADO: autorização e captura no provedor. O webhook valida um pagamento já indicado pelo WooCommerce; o trecho não executa captura. NAO VERIFICADO: liquidação financeira no provedor, prazo de liquidação e fluxo completo de confirmação fora desse webhook. Não foi localizada implementação de Stripe nesse caminho.
